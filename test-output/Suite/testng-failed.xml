@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="language" value="English"/>
+  <test thread-count="5" name="frenchtest(failed)" parallel="classes">
+    <classes>
+      <class name="testcase.VerifyLogin">
+        <methods>
+          <include name="preCondition"/>
+          <include name="runLogin"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- testcase.VerifyLogin -->
+    </classes>
+  </test> <!-- frenchtest(failed) -->
+  <test thread-count="5" name="engtest(failed)" parallel="classes">
+    <classes>
+      <class name="testcase.VerifyLogin">
+        <methods>
+          <include name="preCondition"/>
+          <include name="runLogin"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- testcase.VerifyLogin -->
+    </classes>
+  </test> <!-- engtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

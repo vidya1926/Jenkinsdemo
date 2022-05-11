@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95621" started-at="2022-05-11T18:46:47 IST" finished-at="2022-05-11T18:48:23 IST">
+    <groups>
+    </groups>
+    <test name="frenchtest" duration-ms="61402" started-at="2022-05-11T18:46:47 IST" finished-at="2022-05-11T18:47:48 IST">
+      <class name="testcase.VerifyLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcase.VerifyLogin@51c8530f]" name="preCondition" is-config="true" duration-ms="26523" started-at="2022-05-11T18:46:47 IST" finished-at="2022-05-11T18:47:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runLogin()[pri:0, instance:testcase.VerifyLogin@51c8530f]" name="runLogin" duration-ms="30136" started-at="2022-05-11T18:47:14 IST" finished-at="2022-05-11T18:47:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.VerifyLogin@51c8530f]" name="postCondition" is-config="true" duration-ms="4462" started-at="2022-05-11T18:47:44 IST" finished-at="2022-05-11T18:47:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.VerifyLogin -->
+    </test> <!-- frenchtest -->
+    <test name="engtest" duration-ms="34134" started-at="2022-05-11T18:47:49 IST" finished-at="2022-05-11T18:48:23 IST">
+      <class name="testcase.VerifyLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcase.VerifyLogin@7e9a5fbe]" name="preCondition" is-config="true" duration-ms="12718" started-at="2022-05-11T18:47:49 IST" finished-at="2022-05-11T18:48:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runLogin()[pri:0, instance:testcase.VerifyLogin@7e9a5fbe]" name="runLogin" duration-ms="20686" started-at="2022-05-11T18:48:01 IST" finished-at="2022-05-11T18:48:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.VerifyLogin@7e9a5fbe]" name="postCondition" is-config="true" duration-ms="706" started-at="2022-05-11T18:48:22 IST" finished-at="2022-05-11T18:48:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.VerifyLogin -->
+    </test> <!-- engtest -->
+  </suite> <!-- Suite -->
+</testng-results>
